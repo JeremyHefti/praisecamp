@@ -13,3 +13,19 @@
     </ng-template>
   </p-card>
 </div>
+<div class="card flex justify-content-center">
+  <p-card header="Events" subheader="Anstehende Events" [style]="{ width: '360px' }">
+    <ng-template pTemplate="header">
+      <img src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?cs=srgb&dl=pexels-joshsorenson-976866.jpg&fm=jpg" alt="Events">
+    </ng-template>
+    <p>
+      Hier erfährt ihr was für tolle Events anstehen.
+    </p>
+    <ng-template pTemplate="footer">
+      <div class="flex gap-3 mt-1">
+        <p-button routerLink="/info" label="Mehr" class="w-full" styleClass="w-full" />
+      </div>
+    </ng-template>
+  </p-card>
+</div>
+

@@ -1,5 +1,6 @@
 /* CSS für das transparente Hintergrund und Bild */
 .card {
+  margin-top: 10px;
   background: transparent; /* Macht den Hintergrund transparent */
 }
 
