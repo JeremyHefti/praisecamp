@@ -1,0 +1,48 @@
+{
+  "Event_Date": "27.12.2024 - 01.01.2024",
+  "Event_Location": "Messe Basel",
+  "Event_Cost": 360,
+  "Travel": "ÖV, genaue Zeit wird noch abgeklärt",
+  "members": [
+    {
+      "name": "Jeremy Hefti",
+      "role": "Organisator"
+    },
+    {
+      "name": "Elina Hefti",
+      "role": "Organisator"
+    },
+    {
+      "name": "Leon Höfferer",
+      "role": "Teilnehmer/Dev"
+    },
+    {
+      "name": "Elina",
+      "role": "Teilnehmer"
+    },
+    {
+      "name": "Jana Hefti",
+      "role": "Teilnehmer"
+    },
+    {
+      "name": "Jana Ranieli",
+      "role": "Teilnehmer"
+    },
+    {
+      "name": "Mea Ruprecht",
+      "role": "Teilnehmer"
+    },
+    {
+      "name": "Micha Ruprecht",
+      "role": "Teilnehmer"
+    },
+    {
+      "name": "Seraina",
+      "role": "Teilnehmer"
+    },
+    {
+      "name": "Yöni",
+      "role": "Teilnehmer"
+    }
+  ]
+}
