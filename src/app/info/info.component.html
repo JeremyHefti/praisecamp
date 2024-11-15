@@ -10,7 +10,7 @@
   <section class="info-members">
     <h2>Mitglieder</h2>
     <div class="members-grid">
-      <div *ngFor="let member of members" class="member-card">
+      <div *ngFor="let member of info_data.members" class="member-card">
         <h3>{{ member.name }}</h3>
         <p>{{ member.role }}</p>
       </div>
@@ -20,10 +20,10 @@
   <!-- Veranstaltungsdetails -->
   <section class="info-details">
     <h2>Details</h2>
-    <p><strong>Datum:</strong> {{ eventDate }}</p>
-    <p><strong>Ort:</strong> {{ eventLocation }}</p>
-    <p><strong>Anreise:</strong> {{ anreise }} </p>
-    <p><strong>Kosten:</strong> {{ eventCost }} .-</p>
+    <p><strong>Datum:</strong> {{ info_data.Event_Date }}</p>
+    <p><strong>Ort:</strong> {{ info_data.Event_Location }}</p>
+    <p><strong>Anreise:</strong> {{ info_data.Travel }} </p>
+    <p><strong>Kosten:</strong> CHF {{ info_data.Event_Cost }}.-</p>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5384.4190869256945!2d7.597527377012483!3d47.563711271185994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b9b979eaa6dd%3A0x909ad4bc4762d668!2sExhibition%20Center%20Basel!5e0!3m2!1sen!2sch!4v1731672610669!5m2!1sen!2sch"
       width="100%"
@@ -36,6 +36,5 @@
   </section>
 
 
-  <!-- Aktionen -->
 
 </div>
