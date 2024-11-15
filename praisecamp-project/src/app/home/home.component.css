@@ -1,0 +1,18 @@
+.image-container {
+  position: relative; /* Ermöglicht das Positionieren von Elementen relativ zu diesem Container */
+}
+
+.image-container img {
+  width: 100%; /* Bild auf die volle Breite des Containers skalieren */
+  height: auto; /* Seitenverhältnis des Bildes beibehalten */
+}
+
+.image-container h1 {
+  position: absolute; /* Ermöglicht das Positionieren über dem Bild */
+  top: 35%; /* Positioniert den Text vertikal in der Mitte */
+  left: 50%; /* Positioniert den Text horizontal in der Mitte */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Schatten für bessere Lesbarkeit */
+}
