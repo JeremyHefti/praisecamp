@@ -1,5 +1,7 @@
 .image-container {
-  position: relative; /* Ermöglicht das Positionieren von Elementen relativ zu diesem Container */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
 }
 
 .image-container img {
@@ -15,4 +17,9 @@
   color: white;
   font-size: 3em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Schatten für bessere Lesbarkeit */
+}
+.center-container {
+  display: flex;
+  justify-content: center; /* Horizontal zentrieren */
+  align-items: center;   /* Vertikal zentrieren */
 }

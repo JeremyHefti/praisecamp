@@ -1,0 +1,9 @@
+/* CSS für das transparente Hintergrund und Bild */
+.card {
+  background: transparent; /* Macht den Hintergrund transparent */
+}
+
+.card-image {
+  max-width: 100%; /* Verhindert, dass das Bild breiter als der Container wird */
+  height: auto; /* Stellt sicher, dass das Bild im Verhältnis skaliert wird */
+}
