@@ -9,6 +9,7 @@ export class InfoComponent {
   eventDate: string = '27.12.2024 - 01.01.2024';
   eventLocation: string = 'Messe Basel';
   eventCost: number = 360;
+  anreise: string = 'ÖV, genau Zeit wird noch abgeklärt'
 
   members = [
     { name: 'Jeremy Hefti', role: 'Organisator' },
