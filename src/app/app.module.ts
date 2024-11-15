@@ -11,6 +11,7 @@ import { CardComponent } from './card/card.component';
 import {CardModule} from "primeng/card";
 import {Button} from "primeng/button";
 import { InfoComponent } from './info/info.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InfoComponent } from './info/info.component';
     NavbarComponent,
     EventComponent,
     CardComponent,
-    InfoComponent
+    InfoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

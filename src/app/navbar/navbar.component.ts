@@ -14,11 +14,13 @@ export class NavbarComponent implements OnInit{
     this.items = [
       {
         label: 'Home',
-        icon: 'pi pi-home'
+        icon: 'pi pi-home',
+        routerLink: '/'
       },
       {
         label: 'Events',
-        icon: 'pi pi-star'
+        icon: 'pi pi-star',
+        routerLink: '/event'
       },
       {
         label: 'Info',
@@ -27,7 +29,8 @@ export class NavbarComponent implements OnInit{
       },
       {
         label: 'Contact',
-        icon: 'pi pi-envelope'
+        icon: 'pi pi-envelope',
+        routerLink: '/contact'
       }
     ]
   }
